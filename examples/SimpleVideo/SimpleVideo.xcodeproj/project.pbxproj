@@ -14,6 +14,7 @@
 		60846A1D1E43C676005D46BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60846A1C1E43C676005D46BC /* Assets.xcassets */; };
 		60846A201E43C676005D46BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60846A1E1E43C676005D46BC /* LaunchScreen.storyboard */; };
 		60846A8E1E48E19B005D46BC /* AVPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60846A8D1E48E19B005D46BC /* AVPlayerView.m */; };
+		C28CCB1D1E785DDE008B3A02 /* AppNexusSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AB32811E52163C00429ED7 /* AppNexusSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28CCB1D1E785DDE008B3A02 /* AppNexusSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,25 +243,25 @@
 		60AB324D1E52163C00429ED7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				60AB32651E52163C00429ED7 /* ANSDKResources.bundle */,
-				60AB32811E52163C00429ED7 /* AppNexusSDK.framework */,
-				60AB327D1E52163C00429ED7 /* libANAdapterForGoogleAdMobSDK.a */,
-				60AB327F1E52163C00429ED7 /* libANAdapterForMoPubSDK.a */,
 				60AB32631E52163C00429ED7 /* libANSDK.a */,
-				60AB32751E52163C00429ED7 /* libANSDKAdColonyAdapter.a */,
-				60AB32851E52163C00429ED7 /* libANSDKAdMarvelAdapter.a */,
-				60AB326F1E52163C00429ED7 /* libANSDKAmazonAdapter.a */,
-				60AB32791E52163C00429ED7 /* libANSDKChartboostAdapter.a */,
-				60AB326D1E52163C00429ED7 /* libANSDKFacebookAdapter.a */,
+				60AB32651E52163C00429ED7 /* ANSDKResources.bundle */,
 				60AB32671E52163C00429ED7 /* libANSDKGoogleAdMobAdapter.a */,
-				60AB32711E52163C00429ED7 /* libANSDKInMobiAdapter.a */,
 				60AB32691E52163C00429ED7 /* libANSDKMillennialMediaAdapter.a */,
 				60AB326B1E52163C00429ED7 /* libANSDKMoPubAdapter.a */,
-				60AB32871E52163C00429ED7 /* libANSDKRubiconAdapter.a */,
-				60AB32831E52163C00429ED7 /* libANSDKSmartAdAdapter.a */,
+				60AB326D1E52163C00429ED7 /* libANSDKFacebookAdapter.a */,
+				60AB326F1E52163C00429ED7 /* libANSDKAmazonAdapter.a */,
+				60AB32711E52163C00429ED7 /* libANSDKInMobiAdapter.a */,
 				60AB32731E52163C00429ED7 /* libANSDKVdopiaAdapter.a */,
+				60AB32751E52163C00429ED7 /* libANSDKAdColonyAdapter.a */,
 				60AB32771E52163C00429ED7 /* libANSDKVungleAdapter.a */,
+				60AB32791E52163C00429ED7 /* libANSDKChartboostAdapter.a */,
 				60AB327B1E52163C00429ED7 /* libANSDKYahooAdapter.a */,
+				60AB327D1E52163C00429ED7 /* libANAdapterForGoogleAdMobSDK.a */,
+				60AB327F1E52163C00429ED7 /* libANAdapterForMoPubSDK.a */,
+				60AB32811E52163C00429ED7 /* AppNexusSDK.framework */,
+				60AB32831E52163C00429ED7 /* libANSDKSmartAdAdapter.a */,
+				60AB32851E52163C00429ED7 /* libANSDKAdMarvelAdapter.a */,
+				60AB32871E52163C00429ED7 /* libANSDKRubiconAdapter.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
